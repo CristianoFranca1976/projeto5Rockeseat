@@ -1,0 +1,165 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: rgb(57, 57, 57);
+    margin: auto;
+}
+#descktop {
+    width: 1440px;
+    height: 832px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    opacity: 0.6;
+    background: url(assets/old-paper-texture-beige-craft-cardboard-vintage-canvas-surface\ 1.png), lightgray 50% / cover no-repeat;
+}
+#container {
+    width: 1149px;
+    height: 642.7px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: auto;
+    align-items: center;
+}
+#left {
+   width: 100%;
+   height: 100%; 
+   display: flex;
+   flex-direction: column;
+   justify-content: space-between;
+   gap: 66px;
+}
+h1, h2 {
+    width: 408px;
+    height: auto;
+    color: #A54328;
+    font-family: Source Serif Pro;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal; 
+}
+img {
+    max-width: 411px;
+    height: 243.704px;
+}
+p {
+    width: 435px;
+    height: auto;
+    color: #A54328;
+    font-family: Source Serif Pro;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin: 0;
+    text-align: justify;
+}
+#right {
+    width: 100%;
+    height: 100%; 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    gap: 51px;
+}
+section {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    justify-content: space-between;
+    gap: 24px;
+}
+span {
+    color: #A54328;
+    font-family: Source Serif Pro;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+ul,
+ ol {
+    margin: 0;
+}
+li {
+    color: #A54328;
+    font-family: Source Serif Pro;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal; 
+    margin: 0;
+}
+a {
+   display: flex;
+   width: 133px;
+   height: 45px;
+   justify-content: center;
+   align-items: center;
+   gap: 10px;
+   border-radius: 8px;
+   background: #A54328;
+   text-decoration: none;
+   color: var(--neutral-colors-white, #FFF);
+   text-align: center;
+   font-family: Source Serif 4;
+   font-size: 14px;
+   font-style: normal;
+   font-weight: 500;
+   line-height: 24px; 
+   text-transform: capitalize;
+}
+a:hover {
+    box-shadow: 5px 5px 50px 20px rgba(0, 0, 0, 0.811);
+}
+@media only screen and (max-width: 1380px) {
+
+    #descktop {
+        width: auto;
+        height: auto;
+        border-radius: 20px;
+    }
+    #container {
+        margin: auto;
+        width: auto;
+        height: auto;
+        flex-direction: column;
+        align-items: center;
+        padding: 0 20px;
+        border-radius: 20px;
+    }
+    img {
+        width: auto;
+        height: auto;
+    }
+    #left {
+        margin: 0;
+        align-items: center;
+    }
+    #right {
+        align-items: center;
+        margin: 10px 0;
+    }
+    section {
+        width: auto;
+        align-items: center;
+    }
+    p {
+        width: 350px;
+        height: auto;
+    }
+    ol {
+        width: 340px;
+        margin: 0 auto;   
+    }
+    a {
+        margin-bottom: 30px;
+    }
+}
